@@ -10,7 +10,7 @@ pipeline {
     }
     post{
         success{
-            echo 'pipeline executed  successfully!
+            echo 'pipeline executed  successfully!'
         }
         failure{
             echo 'pipeline failed. please check the logs for details.'
